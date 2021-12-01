@@ -8,7 +8,7 @@ public class Main {
         Member[] members = {member1, member2, member3, member4};
         Team team = new Team("Winners", members); // Создаем команду
         c.doIt(team); // Просим команду пройти полосу
-        System.out.println("Участники, которые преодолели испытание : ");
+        System.out.println("Участники, которые преодолели испытание  : ");
         team.showResults(); // Показываем результаты
 
     }
