@@ -12,4 +12,4 @@ public class Main {
         team.showResults(); // Показываем результаты
 
     }
-}
+ }
