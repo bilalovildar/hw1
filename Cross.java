@@ -10,4 +10,4 @@ public class Cross {
     public void setCrosslength(int crosslength) {
         this.crosslength = crosslength;
     }
-}
+ }
