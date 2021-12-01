@@ -41,5 +41,5 @@ public class Member {
     public void setWinner(boolean winner) {
         this.winner = winner;
     }
-}
+ }
 
