@@ -18,7 +18,7 @@ public class Main {
     }
 
     public static void MyArray() throws MyArrayDataException {
-        while (true) {
+
             Scanner sc = new Scanner(System.in);
             int a = sc.nextInt();
             int b = sc.nextInt();
@@ -48,9 +48,9 @@ public class Main {
             } catch (MyArraySizeException e) {
                 e.printStackTrace();
             } finally {
-                System.out.println("Программа отработала"+" сумма равна "+ +count);
+                System.out.println("Программа отработала"+" сумма равна "+ count);
             }
-        }
+
     }
 
 }
